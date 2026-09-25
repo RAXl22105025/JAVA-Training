@@ -1,0 +1,7 @@
+package Exception;
+
+class AccountNotFoundException extends Exception {
+    AccountNotFoundException(String message) {
+        super(message);
+    }
+}
